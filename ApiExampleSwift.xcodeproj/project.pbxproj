@@ -14,6 +14,7 @@
 		5C4AD8252A5DCB6000A1ACC3 /* ApiExampleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4AD8242A5DCB6000A1ACC3 /* ApiExampleSwiftTests.swift */; };
 		5C4AD82F2A5DCB6000A1ACC3 /* ApiExampleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4AD82E2A5DCB6000A1ACC3 /* ApiExampleSwiftUITests.swift */; };
 		5C4AD8312A5DCB6000A1ACC3 /* ApiExampleSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4AD8302A5DCB6000A1ACC3 /* ApiExampleSwiftUITestsLaunchTests.swift */; };
+		5C4AD83E2A5DCF5E00A1ACC3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4AD83D2A5DCF5E00A1ACC3 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5C4AD82A2A5DCB6000A1ACC3 /* ApiExampleSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiExampleSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4AD82E2A5DCB6000A1ACC3 /* ApiExampleSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiExampleSwiftUITests.swift; sourceTree = "<group>"; };
 		5C4AD8302A5DCB6000A1ACC3 /* ApiExampleSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiExampleSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C4AD83D2A5DCF5E00A1ACC3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				5C4AD8152A5DCB5F00A1ACC3 /* ContentView.swift */,
 				5C4AD8172A5DCB6000A1ACC3 /* Assets.xcassets */,
 				5C4AD8192A5DCB6000A1ACC3 /* Preview Content */,
+				5C4AD83D2A5DCF5E00A1ACC3 /* ViewModel.swift */,
 			);
 			path = ApiExampleSwift;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C4AD8162A5DCB5F00A1ACC3 /* ContentView.swift in Sources */,
+				5C4AD83E2A5DCF5E00A1ACC3 /* ViewModel.swift in Sources */,
 				5C4AD8142A5DCB5F00A1ACC3 /* ApiExampleSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
