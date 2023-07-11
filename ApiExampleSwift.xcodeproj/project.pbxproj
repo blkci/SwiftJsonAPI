@@ -15,6 +15,7 @@
 		5C4AD82F2A5DCB6000A1ACC3 /* ApiExampleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4AD82E2A5DCB6000A1ACC3 /* ApiExampleSwiftUITests.swift */; };
 		5C4AD8312A5DCB6000A1ACC3 /* ApiExampleSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4AD8302A5DCB6000A1ACC3 /* ApiExampleSwiftUITestsLaunchTests.swift */; };
 		5C4AD83E2A5DCF5E00A1ACC3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4AD83D2A5DCF5E00A1ACC3 /* ViewModel.swift */; };
+		5C4AD8412A5DE2BA00A1ACC3 /* Simulator Screenshot - iPhone 14 - 2023-07-11 at 22.17.59.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4AD8402A5DE2BA00A1ACC3 /* Simulator Screenshot - iPhone 14 - 2023-07-11 at 22.17.59.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		5C4AD82E2A5DCB6000A1ACC3 /* ApiExampleSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiExampleSwiftUITests.swift; sourceTree = "<group>"; };
 		5C4AD8302A5DCB6000A1ACC3 /* ApiExampleSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiExampleSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5C4AD83D2A5DCF5E00A1ACC3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5C4AD8402A5DE2BA00A1ACC3 /* Simulator Screenshot - iPhone 14 - 2023-07-11 at 22.17.59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screenshot - iPhone 14 - 2023-07-11 at 22.17.59.png"; path = "../../../Simulator Screenshot - iPhone 14 - 2023-07-11 at 22.17.59.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		5C4AD8122A5DCB5F00A1ACC3 /* ApiExampleSwift */ = {
 			isa = PBXGroup;
 			children = (
+				5C4AD83F2A5DE2B000A1ACC3 /* images */,
 				5C4AD8132A5DCB5F00A1ACC3 /* ApiExampleSwiftApp.swift */,
 				5C4AD8152A5DCB5F00A1ACC3 /* ContentView.swift */,
 				5C4AD8172A5DCB6000A1ACC3 /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				5C4AD8302A5DCB6000A1ACC3 /* ApiExampleSwiftUITestsLaunchTests.swift */,
 			);
 			path = ApiExampleSwiftUITests;
+			sourceTree = "<group>";
+		};
+		5C4AD83F2A5DE2B000A1ACC3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5C4AD8402A5DE2BA00A1ACC3 /* Simulator Screenshot - iPhone 14 - 2023-07-11 at 22.17.59.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4AD8412A5DE2BA00A1ACC3 /* Simulator Screenshot - iPhone 14 - 2023-07-11 at 22.17.59.png in Resources */,
 				5C4AD81B2A5DCB6000A1ACC3 /* Preview Assets.xcassets in Resources */,
 				5C4AD8182A5DCB6000A1ACC3 /* Assets.xcassets in Resources */,
 			);
